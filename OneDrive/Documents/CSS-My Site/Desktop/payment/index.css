@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'poppins', sans-serif;
     background-color: #f4f4f4;
     margin: 0;
     display: flex;
@@ -7,15 +7,19 @@ body {
     align-items: center;
     min-height: 100vh;
   }
-
+.internship-logo{
+  width: 300px;
+}
   .container {
     background-color: #fff;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 400px;
     text-align: center;
+    border: 2px solid black;
+    
   }
 
   .form-group {
