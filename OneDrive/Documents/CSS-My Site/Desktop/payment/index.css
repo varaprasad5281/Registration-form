@@ -16,10 +16,13 @@ body {
     border-radius: 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 400px;
+    max-width: 70%;
     text-align: center;
     border: 2px solid black;
     
+  }
+  form{
+    flex-direction: column;
   }
 
   .form-group {
@@ -27,13 +30,12 @@ body {
   }
 
   label {
-    display: block;
     margin-bottom: 5px;
     font-weight: bold;
   }
 
   input {
-    width: 80%;
+    width: 70%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
@@ -55,7 +57,7 @@ body {
     background-color: #0056b3;
   }
   select{
-    width: 87%;
+    width: 70%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
